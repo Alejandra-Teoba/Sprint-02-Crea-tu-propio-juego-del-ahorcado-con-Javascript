@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Juego Del Ahorcado</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://kit.fontawesome.com/1fd07a6dcd.js" crossorigin="anonymous"></script>
+         
+        
+    </head>
+
+    <body>
+        
+            <main>
+                <video id="videoFondo" src="imagenes/Dibujos Animados - 102883.mp4" autoplay muted ></video>
+                <div id="Contenedor">
+                    <img class="logo-alura" src="imagenes/Vector.png" alt="logo alura">
+                    <h1 class="titulo"><span>B</span><span>I</span><span>E</span><span>N</span><span>V</span><span>E</span><span>N</span><span>I</span><span>D</span><span>O</span><span>S</span> <span></span><span>A</span><span>L</span> <span></span><span>J</span><span>U</span><span>E</span><span>G</span><span>O</span> <span></span><span>D</span><span>E</span><span>L</span> <span> <span></span><span>A</span><span>H</span><span>O</span><span>R</span><span>C<span>A</span><span>D</span><span>O</span><span>!</span></h1>
+
+                <div class="botones">
+                    <button class="boton" id="instrucciones" type="button" name="button" onclick="Instrucciones();">INSTRUCCIONES DEL JUEGO</button>
+                    <button class="boton" id="Jugar" type="button" name="button" onclick="pagina_juego();">JUGAR</button>
+                    <button class="boton" id="AgregarPalabra" type="button" name="button" onclick="mostrar();">AGREGAR PALABRA</button>
+                    <div id="agregandoPalabra">
+                    <input id="palabraNueva" type="text" name="palabraNueva" class="palabraInput" placeholder="letras minúsculas y sin acento" maxlength="11"/>
+                    <button class="palabranueva" id="agregada" type="button" name="button" onclick="agregarPalabra();almacenarPalabrasNavegador();">LISTO</button>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="redes-sociales">
+                    <a href="https://www.linkedin.com/in/alejandra-isabel-escribano-ingi/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Alejandra-Teoba"><i class="fab fa-github"></i></a>
+                    <p class="copyright">&#169 Copyright Alejandra Isabel Escribano Teoba - 2022</p>
+                    </div>     
+                </footer> 
+                </div>
+                
+            </main> 
+         
+        <script type="text/javascript" src="enlaces.js"></script>
+        <script type="text/javascript" src="jugar.js"></script>    
+    </body>
+
+</html>

@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+    background: url(imagenes/cartoon-gae980037f_1920.png);
+    background-size: cover;
+    min-height: 100vh;
+   
+}
+
+.contenedor {
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+#imgAhorcado {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    
+}
+
+#palabra-Adivinando span {
+    vertical-align: bottom;
+    position: relative;
+    bottom: -5px;
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+    width: 50px;
+    margin-left: 76px;
+    text-align: center;
+    display: inline-block; 
+}
+
+#palabra-Adivinando {
+    position: relative;
+    top: -6px;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+    font-family: 'Baloo Tamma', cursive;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+#Letras-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    position: relative;
+    bottom: -100px;
+}
+
+#Letras-botones button {
+    padding: 5px;
+    font-size: 25px;
+    width: 35px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+.botonesJuego {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 100%;
+        
+}
+
+.botonesJuego button {
+    margin-left: 40px;
+    margin-right:40px;
+    margin-bottom: 300px;    
+}
+
+
+#Letras-botones{
+    margin-top: -90px;
+    margin-bottom: 20px;
+ background-image: conic-gradient(
+		#488cfb,
+		#29dbbc,
+		#ddf505,
+		#ff9f0e,
+		#e440bb,
+		#655adc,
+		#488cfb
+	);
+animation: rotate-hue linear 500ms infinite;
+}
+
+@keyframes rotate-hue {
+    to {
+     filter: hue-rotate(1turn);
+    }
+}
+
+#Letras-botones button {
+    cursor: pointer;
+}
+
+#comenzarJ {
+    display: flex;
+    margin-bottom: -106px;
+    margin-top: 84px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    margin-left: auto;
+    cursor: pointer;
+    height: 100px;
+    border-radius: 100px;
+        border: none;
+        background: #333;
+        color: #e5e5e5;
+        font-weight: 600;
+        box-shadow: inset 20px 20px 39px #080a10,
+        inset -20px -20px 39px #1b263e;
+        font-size: 13px;
+      }
+      
+#comenzarJ::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: -10px;
+        top: -10px;
+        border-radius: 50%;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        background: linear-gradient(35deg, rgb(47, 190, 238), rgb(218, 57, 143), rgb(139, 255, 23));
+        filter: blur(10px);
+
+        animation: rotcirclegr 1s linear infinite;
+    }
+    
+    @keyframes rotcirclegr {
+      to {
+        transform: rotate(360deg);
+      }
+}
+      
+
+#volver {
+        display: flex;
+        line-height: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        position: relative;
+        cursor: pointer;
+        height: 100px;
+        border-radius: 100px;
+        border: none;
+        background: #333;
+        color: #e5e5e5;
+        font-weight: 600;
+        box-shadow: inset 20px 20px 39px #080a10,
+        inset -20px -20px 39px #1b263e;
+        font-size: 13px;
+      }
+      
+#volver::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: -10px;
+        top: -10px;
+        border-radius: 50%;
+        width: calc(100% + 20px);
+        height: calc(100% + 20px);
+        background: linear-gradient(35deg, rgb(47, 190, 238), rgb(218, 57, 143), rgb(139, 255, 23));
+        filter: blur(10px);
+
+        animation: rotcirclegr 1s linear infinite;
+    }
+    
+    @keyframes rotcirclegr {
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.redes-sociales {
+    display: flex;
+    right: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    margin-top: 50px;
+}
+
+.redes-sociales a {
+    position: relative;
+    left: 220px;
+    bottom: 20px;
+    padding: 2px;
+    margin-left: 50px;
+    margin-bottom: -60px;
+    background: conic-gradient(
+		#488cfb,
+		#29dbbc,
+		#ddf505,
+		#ff9f0e,
+		#e440bb,
+		#655adc,
+		#488cfb
+	);
+    color: #080a10;
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: bolder;
+    font-style:oblique
+}
+
+
+
