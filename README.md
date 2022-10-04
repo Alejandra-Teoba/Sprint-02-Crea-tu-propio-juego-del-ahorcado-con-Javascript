@@ -31,7 +31,7 @@ Cabe señalar que el juego ya contiene 15 palabras para iniciar.
 -imagen de la horca inicial para el juego
 
 En esta versión los estados del alien fueron representados por imágenes para indicarle
-al jugador que no esta advinando correctamente la palabra hasta perder el juego.
+al jugador que no esta adivinando correctamente la palabra hasta perder el juego.
 
 Estado del juego 0:
 ![imagenes0](https://user-images.githubusercontent.com/113002717/193376914-59fb5677-e2bd-4be7-8b56-aec118a25f61.png)
